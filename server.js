@@ -1,9 +1,9 @@
 import express from 'express'
 import 'dotenv/config'
 import connectTOoDb from './DB/config.js'
-import dns from 'dns';
 import productroute from './routes/productroutes.js';
 import bookroute from './routes/bookroutes.js';
+import dns from 'dns';
 
 
 dns.setServers(['8.8.8.8', '8.8.4.4']);
